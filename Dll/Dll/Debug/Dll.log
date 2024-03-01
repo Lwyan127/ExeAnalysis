@@ -1,4 +1,2 @@
-﻿  pch.cpp
-  dllmain.cpp
-    正在创建库 D:\workspace\curriculum\software_security_design\ExeAnalysis\Dll\Debug\Dll.lib 和对象 D:\workspace\curriculum\software_security_design\ExeAnalysis\Dll\Debug\Dll.exp
+﻿  dllmain.cpp
   Dll.vcxproj -> D:\workspace\curriculum\software_security_design\ExeAnalysis\Dll\Debug\Dll.dll

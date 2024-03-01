@@ -29,6 +29,7 @@ int main() {
 	// inject的部分
 	if (DetourCreateProcessWithDllEx(EXE, NULL, NULL, NULL, TRUE,
 		CREATE_DEFAULT_ERROR_MODE | CREATE_SUSPENDED, NULL, DirPath, &si, &pi, DllPath, NULL)) {
+		MessageBoxA(NULL, "CreateProcessSucceed!", "Title", MB_OK);
 		ResumeThread(pi.hThread);  // 恢复线程
 		WaitForSingleObject(pi.hProcess, INFINITE);
 	}
